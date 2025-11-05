@@ -1,3 +1,9 @@
+https://115cdn.com/s/swwcsx23w70?password=0000&#
+HONEYVIEW-SETUP.EXE
+访问码：0000
+
+<img width="707" height="584" alt="Image" src="https://github.com/user-attachments/assets/60ab657e-f0d0-41d7-ab7a-a36776503afa" />
+
 HoneyView是指一款非常快速且方便的照片查阅器，可以处理市面上常见的多种图片格式，它还能不解压缩就查看压缩文件（ZIP 或 RAR）内的图片。此外，它的使用界面美观，使用 Honeyview 可以轻松进行照片管理。具体来说，HoneyView 是由 Bandisoft 公司开发的免费图像查看器，具有以下特点：
 
 快速且轻量：HoneyView 能够极速加载大图，适合快速浏览大量图片。
