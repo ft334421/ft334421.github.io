@@ -1,3 +1,3 @@
-https://moontv-5pc.pages.dev/
+https://moontv.ft334421.fun
 搭建账号dahai860815@gmail.com
-密码:334421
+密码:ft334421
