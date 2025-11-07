@@ -1,5 +1,93 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>大海博客</title><link>https://ft334421.github.io</link><description>纯私人博客，分享自己感兴趣的东西</description><copyright>大海博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://pic.616pic.com/ys_bnew_img/00/08/11/oV6zt4boYM.jpg</url><title>avatar</title><link>https://ft334421.github.io</link></image><lastBuildDate>Fri, 07 Nov 2025 16:19:21 +0000</lastBuildDate><managingEditor>大海博客</managingEditor><ttl>60</ttl><webMaster>大海博客</webMaster><item><title>飞牛NAS部署V2rayA所需代码</title><link>https://ft334421.github.io/post/fei-niu-NAS-bu-shu-V2rayA-suo-xu-dai-ma.html</link><description>Notion文档著名：InfiCheesy无限芝士
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>大海博客</title><link>https://ft334421.github.io</link><description>纯私人博客，分享自己感兴趣的东西</description><copyright>大海博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://pic.616pic.com/ys_bnew_img/00/08/11/oV6zt4boYM.jpg</url><title>avatar</title><link>https://ft334421.github.io</link></image><lastBuildDate>Fri, 07 Nov 2025 22:32:20 +0000</lastBuildDate><managingEditor>大海博客</managingEditor><ttl>60</ttl><webMaster>大海博客</webMaster><item><title>影视资源api接口</title><link>https://ft334421.github.io/post/ying-shi-zi-yuan-api-jie-kou.html</link><description>{
+  'cache_time': 7200,
+  'api_site': {
+    'dyttzy': {
+      'api': 'http://caiji.dyttzyapi.com/api.php/provide/vod',
+      'name': '电影天堂资源',
+      'detail': 'http://caiji.dyttzyapi.com'
+    },
+    'heimuer': {
+      'api': 'https://json.heimuer.xyz/api.php/provide/vod',
+      'name': '黑木耳',
+      'detail': 'https://heimuer.tv'
+    },
+    'ruyi': {
+      'api': 'http://cj.rycjapi.com/api.php/provide/vod',
+      'name': '如意资源'
+    },
+    'bfzy': {
+      'api': 'https://bfzyapi.com/api.php/provide/vod',
+      'name': '暴风资源'
+    },
+    'tyyszy': {
+      'api': 'https://tyyszy.com/api.php/provide/vod',
+      'name': '天涯资源'
+    },
+    'ffzy': {
+      'api': 'http://ffzy5.tv/api.php/provide/vod',
+      'name': '非凡影视',
+      'detail': 'http://ffzy5.tv'
+    },
+    'zy360': {
+      'api': 'https://360zy.com/api.php/provide/vod',
+      'name': '360资源'
+    },
+    'maotaizy': {
+      'api': 'https://caiji.maotaizy.cc/api.php/provide/vod',
+      'name': '茅台资源'
+    },
+    'wolong': {
+      'api': 'https://wolongzyw.com/api.php/provide/vod',
+      'name': '卧龙资源'
+    },
+    'jisu': {
+      'api': 'https://jszyapi.com/api.php/provide/vod',
+      'name': '极速资源',
+      'detail': 'https://jszyapi.com'
+    },
+    'dbzy': {
+      'api': 'https://dbzy.tv/api.php/provide/vod',
+      'name': '豆瓣资源'
+    },
+    'mozhua': {
+      'api': 'https://mozhuazy.com/api.php/provide/vod',
+      'name': '魔爪资源'
+    },
+    'mdzy': {
+      'api': 'https://www.mdzyapi.com/api.php/provide/vod',
+      'name': '魔都资源'
+    },
+    'zuid': {
+      'api': 'https://api.zuidapi.com/api.php/provide/vod',
+      'name': '最大资源'
+    },
+    'yinghua': {
+      'api': 'https://m3u8.apiyhzy.com/api.php/provide/vod',
+      'name': '樱花资源'
+    },
+    'wujin': {
+      'api': 'https://api.wujinapi.me/api.php/provide/vod',
+      'name': '无尽资源'
+    },
+    'wwzy': {
+      'api': 'https://wwzy.tv/api.php/provide/vod',
+      'name': '旺旺短剧'
+    },
+    'ikun': {
+      'api': 'https://ikunzyapi.com/api.php/provide/vod',
+      'name': 'iKun资源'
+    },
+    'lzi': {
+      'api': 'https://cj.lziapi.com/api.php/provide/vod',
+      'name': '量子资源站'
+    },
+    'xiaomaomi': {
+      'api': 'https://zy.xmm.hk/api.php/provide/vod',
+      'name': '小猫咪资源'
+    }
+  }
+}。</description><guid isPermaLink="true">https://ft334421.github.io/post/ying-shi-zi-yuan-api-jie-kou.html</guid><pubDate>Fri, 07 Nov 2025 22:31:50 +0000</pubDate></item><item><title>飞牛NAS部署V2rayA所需代码</title><link>https://ft334421.github.io/post/fei-niu-NAS-bu-shu-V2rayA-suo-xu-dai-ma.html</link><description>Notion文档著名：InfiCheesy无限芝士
 
 视频教程地址：https://www.youtube.com/watch?v=QCGU4S3tSu0
 
