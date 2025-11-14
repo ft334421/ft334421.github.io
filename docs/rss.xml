@@ -1,5 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>大海博客</title><link>https://ft334421.github.io</link><description>纯私人博客，分享自己感兴趣的东西</description><copyright>大海博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://pic.616pic.com/ys_bnew_img/00/08/11/oV6zt4boYM.jpg</url><title>avatar</title><link>https://ft334421.github.io</link></image><lastBuildDate>Tue, 11 Nov 2025 09:05:10 +0000</lastBuildDate><managingEditor>大海博客</managingEditor><ttl>60</ttl><webMaster>大海博客</webMaster><item><title>不用记端口！飞牛Lucky插件部署SSL证书，外网安全访问NAS服务全流程</title><link>https://ft334421.github.io/post/bu-yong-ji-duan-kou-%EF%BC%81-fei-niu-Lucky-cha-jian-bu-shu-SSL-zheng-shu-%EF%BC%8C-wai-wang-an-quan-fang-wen-NAS-fu-wu-quan-liu-cheng.html</link><description>https://www.bilibili.com/video/BV1TFpvzSExV?t=249.0。</description><guid isPermaLink="true">https://ft334421.github.io/post/bu-yong-ji-duan-kou-%EF%BC%81-fei-niu-Lucky-cha-jian-bu-shu-SSL-zheng-shu-%EF%BC%8C-wai-wang-an-quan-fang-wen-NAS-fu-wu-quan-liu-cheng.html</guid><pubDate>Tue, 11 Nov 2025 09:04:45 +0000</pubDate></item><item><title>影视资源api接口</title><link>https://ft334421.github.io/post/ying-shi-zi-yuan-api-jie-kou.html</link><description>{
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>大海博客</title><link>https://ft334421.github.io</link><description>纯私人博客，分享自己感兴趣的东西</description><copyright>大海博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://pic.616pic.com/ys_bnew_img/00/08/11/oV6zt4boYM.jpg</url><title>avatar</title><link>https://ft334421.github.io</link></image><lastBuildDate>Fri, 14 Nov 2025 09:22:15 +0000</lastBuildDate><managingEditor>大海博客</managingEditor><ttl>60</ttl><webMaster>大海博客</webMaster><item><title>飞牛安装桌面环境，变身Linux电脑，具备更多可玩性！</title><link>https://ft334421.github.io/post/fei-niu-an-zhuang-zhuo-mian-huan-jing-%EF%BC%8C-bian-shen-Linux-dian-nao-%EF%BC%8C-ju-bei-geng-duo-ke-wan-xing-%EF%BC%81.html</link><description>[视频教程](https://www.bilibili.com/video/BV1CYkXBfE77?t=1.8)
+```
+sudo -i
+
+mkdir /home/ft334421
+
+chown -R ft334421:1001 /home/ft334421
+
+上述中的“ft334421”替换为自己的飞牛管理员账号名
+
+apt updateapt 
+
+apt install cinnamon
+
+dpkg-reconfigure locales
+
+apt install ibus-libpinyin
+
+cd /tmp
+
+wget https://gitee.com/spark-store-project/spark-store/releases/download/4.5.2/spark-store_4.5.2-2_amd64.deb
+
+wget http://share.geekxw.top/spark-store_4.5.2-2_amd64.deb
+
+apt install ./spark-store_*_amd64.deb
+
+```
+
+。</description><guid isPermaLink="true">https://ft334421.github.io/post/fei-niu-an-zhuang-zhuo-mian-huan-jing-%EF%BC%8C-bian-shen-Linux-dian-nao-%EF%BC%8C-ju-bei-geng-duo-ke-wan-xing-%EF%BC%81.html</guid><pubDate>Fri, 14 Nov 2025 09:21:49 +0000</pubDate></item><item><title>不用记端口！飞牛Lucky插件部署SSL证书，外网安全访问NAS服务全流程</title><link>https://ft334421.github.io/post/bu-yong-ji-duan-kou-%EF%BC%81-fei-niu-Lucky-cha-jian-bu-shu-SSL-zheng-shu-%EF%BC%8C-wai-wang-an-quan-fang-wen-NAS-fu-wu-quan-liu-cheng.html</link><description>https://www.bilibili.com/video/BV1TFpvzSExV?t=249.0。</description><guid isPermaLink="true">https://ft334421.github.io/post/bu-yong-ji-duan-kou-%EF%BC%81-fei-niu-Lucky-cha-jian-bu-shu-SSL-zheng-shu-%EF%BC%8C-wai-wang-an-quan-fang-wen-NAS-fu-wu-quan-liu-cheng.html</guid><pubDate>Tue, 11 Nov 2025 09:04:45 +0000</pubDate></item><item><title>影视资源api接口</title><link>https://ft334421.github.io/post/ying-shi-zi-yuan-api-jie-kou.html</link><description>{
   'cache_time': 7200,
   'api_site': {
     'dyttzy': {
