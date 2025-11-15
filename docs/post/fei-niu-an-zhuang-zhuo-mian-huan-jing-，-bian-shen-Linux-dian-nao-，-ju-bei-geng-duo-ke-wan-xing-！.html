@@ -37,8 +37,12 @@ wget http://share.geekxw.top/spark-store_4.5.2-2_amd64.deb
 apt install ./spark-store_*_amd64.deb
 
 ```
+如何设置Debian图形启动或命令行界面启动？
+By :[ Will](https://www.cmdschool.org/archives/author/dgadmin) 2023-08-31 Category : [Debian-Like](https://www.cmdschool.org/archives/category/operating-systems/debian-ubuntu)
 
-。">
+Debian-Like
+1 前言
+一个问题，一篇文章，一出故事。">
 <meta property="og:title" content="飞牛安装桌面环境，变身Linux电脑，具备更多可玩性！">
 <meta property="og:description" content="[视频教程](https://www.bilibili.com/video/BV1CYkXBfE77?t=1.8)
 ```
@@ -67,8 +71,12 @@ wget http://share.geekxw.top/spark-store_4.5.2-2_amd64.deb
 apt install ./spark-store_*_amd64.deb
 
 ```
+如何设置Debian图形启动或命令行界面启动？
+By :[ Will](https://www.cmdschool.org/archives/author/dgadmin) 2023-08-31 Category : [Debian-Like](https://www.cmdschool.org/archives/category/operating-systems/debian-ubuntu)
 
-。">
+Debian-Like
+1 前言
+一个问题，一篇文章，一出故事。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://ft334421.github.io/post/fei-niu-an-zhuang-zhuo-mian-huan-jing-%EF%BC%8C-bian-shen-Linux-dian-nao-%EF%BC%8C-ju-bei-geng-duo-ke-wan-xing-%EF%BC%81.html">
 <meta property="og:image" content="https://pic.616pic.com/ys_bnew_img/00/08/11/oV6zt4boYM.jpg">
@@ -164,6 +172,31 @@ wget http://share.geekxw.top/spark-store_4.5.2-2_amd64.deb
 
 apt install ./spark-store_*_amd64.deb
 
+</code></pre>
+<p>如何设置Debian图形启动或命令行界面启动？<br>
+By :<a href="https://www.cmdschool.org/archives/author/dgadmin" rel="nofollow"> Will</a> 2023-08-31 Category : <a href="https://www.cmdschool.org/archives/category/operating-systems/debian-ubuntu" rel="nofollow">Debian-Like</a></p>
+<p>Debian-Like<br>
+1 前言<br>
+一个问题，一篇文章，一出故事。<br>
+笔者经常默认图形界面启动或默认命令行启动的设置命令，于是整理处理，以便查询。</p>
+<p>2 最佳实践<br>
+<strong>2.1 查询当前的启动模式</strong><br>
+<code class="notranslate">systemctl get-default</code><br>
+<strong>2.2 设置为默认命令行界面启动</strong><br>
+<code class="notranslate">systemctl set-default runlevel3.target</code><br>
+或者，你也可以使用如下等价命令，</p>
+<p><code class="notranslate">systemctl set-default multi-user.target</code><br>
+或者，你也可以使用如下等价命令，</p>
+<pre class="notranslate"><code class="notranslate">rm /etc/systemd/system/default.target
+ln -s /usr/lib/systemd/system/multi-user.target /etc/systemd/system/default.target
+</code></pre>
+<p><strong>2.3 设置为默认图形界面启动</strong><br>
+<code class="notranslate">systemctl set-default runlevel5.target</code><br>
+或者，你也可以使用如下等价命令，</p>
+<p><code class="notranslate">systemctl set-default graphical.target</code><br>
+或者，你也可以使用如下等价命令，</p>
+<pre class="notranslate"><code class="notranslate">rm /etc/systemd/system/default.target
+ln -s /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
 </code></pre></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
