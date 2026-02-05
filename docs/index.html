@@ -29,7 +29,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <style>
 .avatar {transition: 0.8s;width:64px;height:64px;object-fit: cover;}
 .avatar:hover{transform: scale(1.15) rotate(360deg);}
-#header h1 a{color:inherit;text-decoration:none;vertical-align: bottom;font-size:40px;font-family:Monaco;margin-left:8px;}
+.title-left a{color:inherit;text-decoration:none;vertical-align: bottom;font-size:40px;font-weight: bold;font-family:Monaco;margin-left:8px;}
 .title-right{display:flex;margin:auto 0 0 auto;}
 .title-right button{margin-right:8px;padding:16px;}
 .title-right .circle{padding: 14px 16px;}
@@ -55,8 +55,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<h1>
-    <img src="https://pic.616pic.com/ys_bnew_img/00/08/11/oV6zt4boYM.jpg" class="avatar circle" id="avatarImg" alt="avatar"><a class="blogTitle">大海博客</a></h1>
+<div class="title-left">
+    <img src="https://pic.616pic.com/ys_bnew_img/00/08/11/oV6zt4boYM.jpg" class="avatar circle" id="avatarImg" alt="avatar"><a class="blogTitle">大海博客</a></div>
 <div class="title-right">
     <a href="https://ft334421.github.io/tag.html" id="buttonSearch" class="btn btn-invisible circle" title="搜索">
         <svg class="octicon" width="16" height="16" >
@@ -82,7 +82,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <nav class="SideNav border">
 <a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/shi-pin-xia-zai-qi.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">视频下载器</span>
     </div>
@@ -93,7 +93,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/fei-niu-an-zhuang-zhuo-mian-huan-jing-%EF%BC%8C-bian-shen-Linux-dian-nao-%EF%BC%8C-ju-bei-geng-duo-ke-wan-xing-%EF%BC%81.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">飞牛安装桌面环境，变身Linux电脑，具备更多可玩性！</span>
     </div>
@@ -104,7 +104,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/bu-yong-ji-duan-kou-%EF%BC%81-fei-niu-Lucky-cha-jian-bu-shu-SSL-zheng-shu-%EF%BC%8C-wai-wang-an-quan-fang-wen-NAS-fu-wu-quan-liu-cheng.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">不用记端口！飞牛Lucky插件部署SSL证书，外网安全访问NAS服务全流程</span>
     </div>
@@ -115,7 +115,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/ying-shi-zi-yuan-api-jie-kou.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">影视资源api接口</span>
     </div>
@@ -126,7 +126,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/fei-niu-NAS-bu-shu-V2rayA-suo-xu-dai-ma.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">飞牛NAS部署V2rayA所需代码</span>
     </div>
@@ -137,7 +137,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/liu-lan-qi-zui-qiang-qu-guang-gao-cha-jian.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">浏览器最强去广告插件</span>
     </div>
@@ -148,7 +148,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/da-jian-zai-cloudflare-de-MoonTV.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">搭建在cloudflare的MoonTV</span>
     </div>
@@ -159,7 +159,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/Cloudflare%20-gao-su-mian-fei-VPN%EF%BC%81-su-du-ji-kuai-%E3%80%81-zi-dong-you-xuan-IP%E3%80%81-wu-xian-liu-liang-%EF%BC%81-hai-liang-jie-dian-sui-bian-yong-%EF%BC%8C-miao-kai-4K%E3%80%818K-shi-pin-%EF%BC%81-%20-ling-du-jie-shuo.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">Cloudflare 高速免费VPN！速度极快、自动优选IP、无限流量！海量节点随便用，秒开4K、8K视频！| 零度解说</span>
     </div>
@@ -170,7 +170,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/Batocera%20plus%20-jing-mei-jie-mian--64G-zhong-wen-fu-gu-you-xi-jing-xiang--by-you-xi-fang-kuai.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">Batocera plus 精美界面-64G中文复古游戏镜像-by游戏方块</span>
     </div>
@@ -181,7 +181,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/U-pan-Windows-xi-tong-%20%20WTG-luo-bu-tou-an-zhuang-ruan-jian.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">U盘Windows系统  WTG萝卜头安装软件</span>
     </div>
@@ -192,7 +192,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/kan-tu-ruan-jian-HoneyView.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">看图软件HoneyView</span>
     </div>
@@ -203,7 +203,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/Cloudflare%20-mian-fei-bu-shu-kai-yuan-xiang-mu-%EF%BC%81Workers-Pages%20-zhen-de-tai-xiang-le-%EF%BC%8C-da-jian-wu-xian-tu-chuang-%E3%80%81-ge-ren-dao-hang-zhan-%E3%80%81-bo-ke-deng-%E2%80%A6.-shuang-wai-wai-%21%20-%20-ling-du-jie-shuo.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">Cloudflare 免费部署开源项目！Workers/Pages 真的太香了，搭建无限图床、个人导航站、博客等….爽歪歪! | 零度解说</span>
     </div>
@@ -214,7 +214,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/yong-jiu-mian-fei-%EF%BC%81-zhi-xu-you-xiang-ji-ke-zhu-ce-%20IP6.arpa%20-yu-ming-%EF%BC%8C-yi-jian-tuo-guan-dao-%20Cloudflare%EF%BC%81.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">永久免费！只需邮箱即可注册 IP6.arpa 域名，一键托管到 Cloudflare！</span>
     </div>
@@ -225,7 +225,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/lin-shi-jiao-yu-you-xiang-zhu-ce.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">临时教育邮箱注册</span>
     </div>
@@ -236,7 +236,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/IP-zhen-shi-di-zhi-sheng-cheng-qi-%20%F0%9F%8C%8D.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">IP真实地址生成器 🌍</span>
     </div>
@@ -264,7 +264,7 @@ if(""!=""){
     var startSite=new Date("");
     var diff=now.getTime()-startSite.getTime();
     var diffDay=Math.floor(diff/(1000*60*60*24));
-    document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
+    document.getElementById("runday").innerHTML="网站运行 "+diffDay+" 天"+" • ";
 }
 </script></div>
 </body>
